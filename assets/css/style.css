@@ -1,0 +1,192 @@
+:root {
+  --main-bg-color: #151515;
+  --title-font-color: #fad07a;
+  --ansi-white: #e8e8d3;
+  --ansi-blue: #8197bf;
+  --line-color: #272626da;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  padding: 3rem;
+}
+.logo {
+  font-family: "Courier Prime", monospace;
+  font-size: 4rem;
+  color: var(--ansi-blue);
+  letter-spacing: 3px;
+}
+
+.underlogo {
+  font-family: "Courier Prime", monospace;
+  color: var(--ansi-blue);
+  font-size: 1.6rem;
+}
+nav a {
+  color: var(--title-font-color);
+  text-decoration: underline;
+}
+nav {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--ansi-white);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-size: 1.7rem;
+  max-width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--ansi-white);
+  font-family: "Inconsolata", monospace;
+}
+h1 {
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 0.8rem;
+}
+
+h2 {
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 0.8rem;
+}
+
+h3 {
+  border-bottom: 1px solid var(--line-color);
+  padding-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier Prime", monospace;
+  color: var(--title-font-color);
+}
+
+code {
+  font-family: "Inconsolata", monospace;
+  white-space: pre !important;
+  border-radius: 5px;
+}
+
+.sourceCode {
+  font-size: 0.99em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: #2b2c2c;
+}
+
+.md-content {
+  flex-direction: column;
+  text-align: left;
+}
+
+code span.al {
+  color: #fb4934;
+}
+code span.an {
+  color: #928374;
+  font-weight: bold;
+  font-style: italic;
+}
+code span.bn {
+  color: #99ad6a;
+}
+
+code span.cf {
+  color: #d3869b;
+  font-weight: bold;
+}
+code span.ch {
+  color: #83a598;
+}
+code span.co {
+  color: #928374;
+  font-weight: bold;
+  font-style: italic;
+}
+code span.do {
+  color: #928374;
+  font-style: italic;
+}
+code span.dt {
+  text-decoration: underline;
+}
+code span.dv {
+  color: #99ad6a;
+}
+code span.er {
+  color: #fb4934;
+  font-weight: bold;
+}
+code span.fl {
+  color: #99ad6a;
+}
+code span.fu {
+  color: #fad07a;
+  font-weight: bold;
+}
+code span.in {
+  color: #928374;
+  font-weight: bold;
+  font-style: italic;
+}
+code span.kw {
+  color: #8197bf;
+  font-weight: bold;
+}
+code span.pp {
+  font-weight: bold;
+}
+code span.sc {
+  color: #83a598;
+}
+code span.ss {
+  color: #83a598;
+}
+code span.st {
+  color: #83a598;
+}
+code span.vs {
+  color: #83a598;
+}
+code span.wa {
+  color: #fb4934;
+  font-weight: bold;
+}
+code span.bu {
+  color: #8197bf;
+  font-weight: bold;
+}
+
+a {
+  color: var(--title-font-color);
+}
+
+a:hover {
+  color: var(--main-bg-color);
+  background-color: var(--title-font-color);
+  font-weight: bold;
+}
